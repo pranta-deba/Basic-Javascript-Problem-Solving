@@ -1,12 +1,10 @@
 function matchFinder(str1, str2) {
   if (typeof str1 == "string" && typeof str2 == "string") {
-    for (const char of str1) {
-      if (str2.includes(char)) {
-        console.log(char);
-        return true;
-      }
+    if (str1.includes(str2)) {
+      return true;
+    } else {
+      return false;
     }
-    return false;
   } else {
     return "Invalid String!";
   }
