@@ -1,6 +1,13 @@
+// function cubeNumber(e) {
+//   if (typeof e == "number") {
+//     return e ** 3;
+//   } else {
+//     return "Invalid Number!";
+//   }
+// }
 function cubeNumber(e) {
   if (typeof e == "number") {
-    return e ** 3;
+    return Math.pow(e, 3);
   } else {
     return "Invalid Number!";
   }

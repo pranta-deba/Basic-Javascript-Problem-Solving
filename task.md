@@ -1,0 +1,1 @@
+# make cube of a provided number
